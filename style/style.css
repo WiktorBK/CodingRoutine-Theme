@@ -9,11 +9,9 @@ body{
     margin: auto;
     padding: auto;
     width: 1000px;
-    border: 1px solid black;
 }
 
 #text{
-    border: 1px solid black;
     text-align: center;
 }
 
@@ -22,7 +20,6 @@ h1{
     font-size: 70px;
     width: 500px;
     text-align: center;
-    border: 1px solid black;
     margin: 0 auto;
     
 }
@@ -30,15 +27,51 @@ h1{
 p{
     color: white;
     font-size:25px;
-    border: 1px solid black;
     width: 555px;
     margin: 20 auto;
 
 }
 
-#form{
-    margin: 0 auto;
+#input{
     display: flex;
     justify-content: center;
-
 }
+
+input[type="text"]{
+    width: 400px;
+    height: 50px;
+    border-radius: 20px;
+    font-size: 18px;
+    padding: 10px;
+    background-color: #C5C5C5;
+    transition: 0.5s;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    outline: none;
+    background-image: url('https://img.icons8.com/ios-filled/256/apple-mail.png');
+    background-position: 97% 50%;
+    background-size: 35px;
+    background-repeat: no-repeat;
+}
+input[type=text]:focus {
+    border: 2px solid #303030;
+    background-color: #D6D6D6;
+
+  }
+input[type=submit]{
+    background-color: #20CD8D;
+    border: none;
+    color: white;
+    width: 200px;
+    height:50px;
+    font-size: 20px;
+    border-radius: 30px;
+    text-decoration: none;
+    cursor: pointer;
+    margin-top: 30px;
+    transition: 0.3s;
+
+  }
+  input[type=submit]:hover{
+    background-color: #10BC7C;
+  }
