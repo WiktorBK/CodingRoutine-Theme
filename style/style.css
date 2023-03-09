@@ -9,16 +9,10 @@ body {
   margin: 0;
   background-color: #182527;
   font-family: "Nunito", sans-serif;
-  /* overflow: hidden; */
+  overflow: hidden;
 }
-/* section {
-  position: relative;
-  width: 100%;
-  height: 100%;
-} */
 
 .topnav {
-  overflow: hidden;
   background-color: #071416;
   height: 150px;
 }
@@ -64,6 +58,14 @@ h1 {
   width: 600px;
   text-align: center;
   margin: 0 auto;
+}
+
+h2 {
+  color: #20cd8d;
+  font-size: 74px;
+  width: 800px;
+  text-align: center;
+  margin:  0 auto;
 }
 
 p {
@@ -134,11 +136,29 @@ input[type="submit"]:hover {
     margin-right: -20px;
 
 }
+#icon1{
+  /* border: 1px solid black; */
+  cursor: pointer;
+  position: absolute;
+  animation: arrow2 1.5s infinite;
+  top:101%;
+  right: 50%;
+  margin-right: -20px;
+}
 
+@keyframes arrow2{
+  80%{
+    opacity: 0.6;
+    transform: translateY(7px);
+  }
+  100%{
+    opacity: 1;
+  }
+}
 @keyframes arrow{
   80%{
-    opacity: 0.7;
-    transform: translateY(7px);
+    opacity: 0.6;
+    transform: translateY(-7px);
   }
   100%{
     opacity: 1;
@@ -148,6 +168,6 @@ input[type="submit"]:hover {
 svg{
     transition: 0.3s;
 }
-svg:hover{
-    stroke-width:2.2px;
-}
+svg:hover{stroke-width:2.2px;}
+#section1, #section2{ height: 100%;}
+#section2{padding: 200px;}
