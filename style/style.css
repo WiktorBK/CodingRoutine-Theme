@@ -39,8 +39,9 @@ body {
 #line2 {
   background-color: #20cd8d;
   width: 5px;
-  height: 45px;
-  margin: 50px 0px 0px 0px;
+  height: 55px;
+  margin: 55px 0px 0px 55px;
+  position: absolute;
   
 }
 
@@ -190,7 +191,7 @@ svg:hover{stroke-width:2.2px;}
 #block{
   margin: 0 auto;
   width: 80%;
-  height: 750px;
+  height: 700px;
   background-color: #243234;
   padding: 20px;
 }
@@ -198,10 +199,10 @@ svg:hover{stroke-width:2.2px;}
 #block-inside{
   margin: 50 auto;
   width: 75%;
-  height: 400px;
+  height: 350px;
   border-radius: 7px;
   background-color: #252927;
-  padding: 20px;
+  padding: 30px;
   box-shadow: -1px 7px 34px -22px #121212;
 
 }
@@ -239,4 +240,19 @@ svg:hover{stroke-width:2.2px;}
 }
 #bottomnav:hover{
   opacity: 0.9;
+}
+
+#example{
+  margin-top: 20px;
+  font-weight: 600;
+}
+#task{
+  margin-top: 20px;
+
+}
+
+#text{
+  color: white;
+  font-size: 17px;
+  text-align: left;
 }
