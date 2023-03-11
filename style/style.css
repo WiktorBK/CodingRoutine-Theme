@@ -88,7 +88,7 @@ p {
   justify-content: center;
 }
 
-input[type="text"] {
+#email[type="text"] {
   width: 500px;
   height: 50px;
   border-radius: 20px;
@@ -103,10 +103,46 @@ input[type="text"] {
   background-position: 97% 50%;
   background-size: 35px;
   background-repeat: no-repeat;
+  font-weight: 700;
+
 }
-input[type="text"]:focus {
+
+#message::placeholder{
+  font-size:16px;
+  font-family: "Nunito", sans-serif; 
+  opacity: 0.5;
+
+}
+#email::placeholder{
+  font-size:18px;
+  font-family: "Nunito", sans-serif; 
+  opacity: 0.5;
+}
+
+#message[type="text"] {
+  margin:20px;
+  width: 500px;
+  height: 200px;
+  border-radius: 10px;
+  font-size: 16px;
+  padding: 10px;
+  background-color: #c5c5c5;
+  transition: 0.5s;
+  box-sizing: border-box;
+  border: 2px solid #ccc;
+  outline: none;
+  resize: vertical;
+  font-weight: 700;
+  max-height: 300px;
+  min-height: 50px;
+}
+#email[type="text"]:focus {
   border: 2px solid #303030;
   background-color: #d6d6d6;
+}
+#message[type="text"]:focus {
+  border: 2px solid #303030;
+  background-color: #d6d6d6
 }
 input[type="submit"] {
   background-color: #20cd8d;
