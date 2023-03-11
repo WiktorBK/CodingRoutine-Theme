@@ -75,6 +75,13 @@ h2 {
   text-align: center;
   margin:  0 auto;
 }
+h5 {
+  color: #20cd8d;
+  font-size: 18px;
+  width: 500px;
+  text-align: center;
+  margin:  0 auto;
+}
 
 p {
   color: white;
@@ -82,6 +89,16 @@ p {
   width: 555px;
   margin: 40px auto 20px auto;
 }
+
+#email-text{
+  color: white;
+  font-size: 20px;
+  width: 100%;
+  /* border: 1px solid black; */
+  margin: 0px auto 0px auto;
+  text-align: center;
+}
+
 
 #input {
   display: flex;
