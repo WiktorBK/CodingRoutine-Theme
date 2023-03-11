@@ -71,9 +71,11 @@ h1 {
 h2 {
   color: #20cd8d;
   font-size: 50px;
-  width: 800px;
+  width: 100%;
   text-align: center;
   margin:  0 auto;
+  /* border: 1px solid black; */
+
 }
 h5 {
   color: #20cd8d;
@@ -95,7 +97,7 @@ p {
   font-size: 20px;
   width: 100%;
   /* border: 1px solid black; */
-  margin: 0px auto 0px auto;
+  margin: 10px auto 0px auto;
   text-align: center;
 }
 
@@ -239,7 +241,15 @@ svg:hover{stroke-width:2.2px;}
   width: 1000px;
 
 }
-
+#verification-box{
+  margin: 0 auto;
+  width: 70%;
+  height: 400px;
+  background-color: #243234;
+  box-shadow: -1px 7px 40px -22px #121212;
+  padding: 20px;
+ 
+}
 
 #block{
   margin: 0 auto;
