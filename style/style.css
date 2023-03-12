@@ -105,6 +105,7 @@ p {
 #input {
   display: flex;
   justify-content: center;
+
 }
 
 #email[type="text"] {
@@ -176,6 +177,42 @@ input[type="submit"] {
   margin-top: 30px;
   transition: 0.3s;
 }
+#inline-form{
+  margin: 10 auto;
+  width: auto;
+  /* border: 1px solid black; */
+  display: flex;
+  justify-content: center;
+  
+}
+#inline[type="text"]{
+  margin: 0 auto;
+  width: 240px;
+  margin: 10px;
+  height: 50px;
+  border-radius: 20px;
+  font-size: 18px;
+  padding: 10px;
+  background-color: #c5c5c5;
+  transition: 0.5s;
+  box-sizing: border-box;
+  border: 2px solid #ccc;
+  outline: none;
+  font-weight: 700;
+}
+
+#inline::placeholder{
+  opacity: 0.5;
+  font-size: 18px;
+  font-family: "Nunito", sans-serif; 
+
+}
+
+#inline:focus{
+  border: 2px solid #303030;
+  background-color: #d6d6d6
+}
+
 input[type="submit"]:hover {
   background-color: #10bc7c;
 }
@@ -250,6 +287,17 @@ svg:hover{stroke-width:2.2px;}
   padding: 20px;
  
 }
+#contact-box{
+  margin: 0 auto;
+  width: 70%;
+  height: 60vh;
+  background-color: #243234;
+  box-shadow: -1px 7px 40px -22px #121212;
+  padding: 20px;
+ 
+}
+
+
 
 #block{
   margin: 0 auto;
