@@ -29,6 +29,7 @@ body {
   margin: 50px 200px;
 }
 
+
 #line {
   background-color: #20cd8d;
   width: 5px;
@@ -36,14 +37,7 @@ body {
   float: left;
   margin-right: 10px;
 }
-#line2 {
-  background-color: #20cd8d;
-  width: 5px;
-  height: 55px;
-  margin: 55px 0px 0px 55px;
-  position: absolute;
-  
-}
+
 
 .topnav a:hover {
   color: #e1e1e1e1;
@@ -57,7 +51,6 @@ body {
 
 #text {
   text-align: center;
-
 }
 
 h1 {
@@ -73,16 +66,15 @@ h2 {
   font-size: 50px;
   width: 100%;
   text-align: center;
-  margin:  0 auto;
+  margin: 0 auto;
   /* border: 1px solid black; */
-
 }
 h5 {
   color: #20cd8d;
   font-size: 18px;
   width: 500px;
   text-align: center;
-  margin:  0 auto;
+  margin: 0 auto;
 }
 
 p {
@@ -90,15 +82,6 @@ p {
   font-size: 25px;
   width: 555px;
   margin: 40px auto 20px auto;
-}
-
-#email-text{
-  color: white;
-  font-size: 20px;
-  width: 100%;
-  /* border: 1px solid black; */
-  margin: 10px auto 0px auto;
-  text-align: center;
 }
 
 
@@ -123,46 +106,21 @@ p {
   background-size: 35px;
   background-repeat: no-repeat;
   font-weight: 700;
-
 }
 
-#message::placeholder{
-  font-size:16px;
-  font-family: "Nunito", sans-serif; 
-  opacity: 0.5;
 
-}
-#email::placeholder{
-  font-size:18px;
-  font-family: "Nunito", sans-serif; 
+#email::placeholder {
+  font-size: 18px;
+  font-family: "Nunito", sans-serif;
   opacity: 0.5;
 }
 
-#message[type="text"] {
-  margin:20px;
-  width: 500px;
-  height: 200px;
-  border-radius: 10px;
-  font-size: 16px;
-  padding: 10px;
-  background-color: #c5c5c5;
-  transition: 0.5s;
-  box-sizing: border-box;
-  border: 2px solid #ccc;
-  outline: none;
-  resize: vertical;
-  font-weight: 700;
-  max-height: 300px;
-  min-height: 50px;
-}
+
 #email[type="text"]:focus {
   border: 2px solid #303030;
   background-color: #d6d6d6;
 }
-#message[type="text"]:focus {
-  border: 2px solid #303030;
-  background-color: #d6d6d6
-}
+
 input[type="submit"] {
   background-color: #20cd8d;
   border: none;
@@ -176,146 +134,46 @@ input[type="submit"] {
   margin-top: 30px;
   transition: 0.3s;
 }
+
+
 input[type="submit"]:hover {
   background-color: #10bc7c;
 }
 
-#smalltext{ 
-    color: white;
-    opacity: 0.8;
-    font-size: 14px;
-    display: flex;
-    justify-content: center;
-
-}
-
-#icon{
-    cursor: pointer;
-    margin: auto;
-    position: absolute;
-    bottom: 15;
-    animation: arrow 1.5s infinite;
-    right: 50%;
-    margin-right: -20px;
-
-}
-#icon1{
-  /* border: 1px solid black; */
-  cursor: pointer;
-  position: absolute;
-  animation: arrow2 1.5s infinite;
-  top:101%;
-  right: 50%;
-  margin-right: -20px;
-}
-
-@keyframes arrow2{
-  80%{
-    opacity: 0.6;
-    transform: translateY(7px);
-  }
-  100%{
-    opacity: 1;
-  }
-}
-@keyframes arrow{
-  80%{
-    opacity: 0.6;
-    transform: translateY(-7px);
-  }
-  100%{
-    opacity: 1;
-  }
-
-}
-svg{
-    transition: 0.3s;
-}
-svg:hover{stroke-width:2.2px;}
-#section1, #section2{ height: 100%;}
-#section2{padding: 100px;}
-
-.container2{
+#footer-contact {
   margin: auto;
-  padding: auto;
-  width: 1000px;
-
-}
-#verification-box{
-  margin: 0 auto;
-  width: 70%;
-  height: 400px;
-  background-color: #243234;
-  box-shadow: -1px 7px 40px -22px #121212;
-  padding: 20px;
- 
-}
-
-#block{
-  margin: 0 auto;
-  width: 80%;
-  height: 700px;
-  background-color: #243234;
-  padding: 20px;
-}
-
-#block-inside{
-  margin: 50 auto;
-  width: 75%;
-  height: 350px;
-  border-radius: 7px;
-  background-color: #252927;
-  padding: 30px;
-  box-shadow: -1px 7px 34px -22px #121212;
-
-}
-
-#footer{
-  margin: auto;
-  width:250px;
-  padding: auto;
-  position: absolute;
-  display: flex;
-  right: 42%;
-  top: 197%;
-}
-#footer-contact{
-  margin: auto;
-  width:250px;
+  width: 250px;
   padding: auto;
   position: absolute;
   display: flex;
   right: 42%;
   top: 97%;
 }
-#copyright{
+
+#footer {
+  margin: auto;
+  width: 250px;
+  padding: auto;
+  position: absolute;
+  display: flex;
+  right: 42%;
+  top: 197%;
+}
+
+#copyright {
   color: white;
   opacity: 0.5;
   margin-left: 15px;
 }
 
-#bottomnav{
+#bottomnav {
   text-decoration: none;
-  color:white;
+  color: white;
   opacity: 0.6;
   transition: 0.3s;
   margin: auto 3px;
 }
-#bottomnav:hover{
+#bottomnav:hover {
   opacity: 0.9;
 }
 
-#example{
-  margin-top: 20px;
-  font-weight: 600;
-}
-#task{
-  margin-top: 20px;
-
-}
-
-#text{
-  color: white;
-  font-size: 17px;
-  text-align: left;
-}

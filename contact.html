@@ -4,6 +4,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="style/style.css" type="text/css" />
+    <link rel="stylesheet" href="style/style-contact.css" type="text/css" />
+
     <title>CodingRoutine</title>
   </head>
   <body>
@@ -16,19 +18,47 @@
     </div>
 
     <div class="container">
-
-      <h2 style="margin-bottom: 10vh;">Contact form</h2>
-      <form action="" method="POST">
-        <div id="input">
-        <input style="border-radius:10px;" id="email" type="text" placeholder="Enter your email here" />
-        </div>
-        <div id="input">
-          <textarea id="message" type="text" placeholder="Write something..."></textarea> 
+      <div id="contact-box">
+        <h2 style="margin-bottom: 5vh">Contact form</h2>
+        <form action="" method="POST">
+          <div id="inline-form">
+            <input
+              style="border-radius: 10px"
+              id="inline"
+              type="text"
+              placeholder="First name"
+            />
+            <input
+              style="border-radius: 10px"
+              id="inline"
+              type="text"
+              placeholder="Last name"
+            />
           </div>
-        <div id="input">
-          <input type="submit" value="Send" />
+          <div id="input">
+            <input
+              style="border-radius: 10px"
+              id="email"
+              type="text"
+              placeholder="Email address"
+            />
           </div>
-      </form>
+          <div id="input">
+            <textarea
+              id="message"
+              type="text"
+              placeholder="Write something..."
+            ></textarea>
+          </div>
+          <div id="input">
+            <input
+              style="width: 200px; height: 55px; font-size: 22px"
+              type="submit"
+              value="Send"
+            />
+          </div>
+        </form>
+      </div>
       <div id="footer-contact">
         <a id="bottomnav" href="index.html"><small>Home</small></a>
         <a id="bottomnav" href="contact.html"><small>Contact</small></a>
