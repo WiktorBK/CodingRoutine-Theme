@@ -42,7 +42,6 @@ body {
   height: 55px;
   margin: 55px 0px 0px 55px;
   position: absolute;
-  
 }
 
 .topnav a:hover {
@@ -57,7 +56,6 @@ body {
 
 #text {
   text-align: center;
-
 }
 
 h1 {
@@ -73,16 +71,15 @@ h2 {
   font-size: 50px;
   width: 100%;
   text-align: center;
-  margin:  0 auto;
+  margin: 0 auto;
   /* border: 1px solid black; */
-
 }
 h5 {
   color: #20cd8d;
   font-size: 18px;
   width: 500px;
   text-align: center;
-  margin:  0 auto;
+  margin: 0 auto;
 }
 
 p {
@@ -92,7 +89,7 @@ p {
   margin: 40px auto 20px auto;
 }
 
-#email-text{
+#email-text {
   color: white;
   font-size: 20px;
   width: 100%;
@@ -101,11 +98,9 @@ p {
   text-align: center;
 }
 
-
 #input {
   display: flex;
   justify-content: center;
-
 }
 
 #email[type="text"] {
@@ -124,23 +119,21 @@ p {
   background-size: 35px;
   background-repeat: no-repeat;
   font-weight: 700;
-
 }
 
-#message::placeholder{
-  font-size:16px;
-  font-family: "Nunito", sans-serif; 
+#message::placeholder {
+  font-size: 16px;
+  font-family: "Nunito", sans-serif;
   opacity: 0.5;
-
 }
-#email::placeholder{
-  font-size:18px;
-  font-family: "Nunito", sans-serif; 
+#email::placeholder {
+  font-size: 18px;
+  font-family: "Nunito", sans-serif;
   opacity: 0.5;
 }
 
 #message[type="text"] {
-  margin:20px;
+  margin: 20px;
   width: 500px;
   height: 200px;
   border-radius: 10px;
@@ -162,7 +155,7 @@ p {
 }
 #message[type="text"]:focus {
   border: 2px solid #303030;
-  background-color: #d6d6d6
+  background-color: #d6d6d6;
 }
 input[type="submit"] {
   background-color: #20cd8d;
@@ -177,15 +170,14 @@ input[type="submit"] {
   margin-top: 30px;
   transition: 0.3s;
 }
-#inline-form{
+#inline-form {
   margin: 10 auto;
   width: auto;
   /* border: 1px solid black; */
   display: flex;
   justify-content: center;
-  
 }
-#inline[type="text"]{
+#inline[type="text"] {
   margin: 0 auto;
   width: 240px;
   margin: 10px;
@@ -201,94 +193,95 @@ input[type="submit"] {
   font-weight: 700;
 }
 
-#inline::placeholder{
+#inline::placeholder {
   opacity: 0.5;
   font-size: 18px;
-  font-family: "Nunito", sans-serif; 
-
+  font-family: "Nunito", sans-serif;
 }
 
-#inline:focus{
+#inline:focus {
   border: 2px solid #303030;
-  background-color: #d6d6d6
+  background-color: #d6d6d6;
 }
 
 input[type="submit"]:hover {
   background-color: #10bc7c;
 }
 
-#smalltext{ 
-    color: white;
-    opacity: 0.8;
-    font-size: 14px;
-    display: flex;
-    justify-content: center;
-
+#smalltext {
+  color: white;
+  opacity: 0.8;
+  font-size: 14px;
+  display: flex;
+  justify-content: center;
 }
 
-#icon{
-    cursor: pointer;
-    margin: auto;
-    position: absolute;
-    bottom: 15;
-    animation: arrow 1.5s infinite;
-    right: 50%;
-    margin-right: -20px;
-
+#icon {
+  cursor: pointer;
+  margin: auto;
+  position: absolute;
+  bottom: 15;
+  animation: arrow 1.5s infinite;
+  right: 50%;
+  margin-right: -20px;
 }
-#icon1{
+#icon1 {
   /* border: 1px solid black; */
   cursor: pointer;
   position: absolute;
   animation: arrow2 1.5s infinite;
-  top:101%;
+  top: 101%;
   right: 50%;
   margin-right: -20px;
 }
 
-@keyframes arrow2{
-  80%{
+@keyframes arrow2 {
+  80% {
     opacity: 0.6;
     transform: translateY(7px);
   }
-  100%{
+  100% {
     opacity: 1;
   }
 }
-@keyframes arrow{
-  80%{
+@keyframes arrow {
+  80% {
     opacity: 0.6;
     transform: translateY(-7px);
   }
-  100%{
+  100% {
     opacity: 1;
   }
-
 }
-svg{
-    transition: 0.3s;
+svg {
+  transition: 0.3s;
 }
-svg:hover{stroke-width:2.2px;}
-#section1, #section2{ height: 100%;}
-#section2{padding: 100px;}
+svg:hover {
+  stroke-width: 2.2px;
+}
+#section1,
+#section2 {
+  height: 100%;
+}
+#section2 {
+  padding: 100px;
+}
 
-.container2{
+.container2 {
   margin: auto;
   padding: auto;
   width: 1000px;
-
 }
-#verification-box{
+#verification-box {
   margin: 0 auto;
   width: 70%;
   height: 400px;
   background-color: #243234;
   box-shadow: -1px 7px 40px -22px #121212;
   padding: 20px;
- 
 }
 
-#resend{
+#resend {
   background-color: #20cd8d;
   text-decoration: none;
   color: white;
@@ -297,42 +290,41 @@ svg:hover{stroke-width:2.2px;}
   font-weight: 600;
   transition: 0.3s;
 }
-#resend:hover{
+#resend:hover {
   background-color: #10bc7c;
 }
 
-#resend-div{
+#resend-div {
   /* border:1px solid black; */
   height: 10vh;
   text-align: center;
   /* justify-content: center; */
 }
 
-#having-problems{
+#having-problems {
   margin-top: 3vh;
 }
 
-#contact-us{
+#contact-us {
   /* text-decoration: none; */
   font-weight: 600;
   color: rgb(227, 227, 227);
   transition: 0.3s;
 }
-#contact-us:hover{color:white}
+#contact-us:hover {
+  color: white;
+}
 
-#contact-box{
+#contact-box {
   margin: 0 auto;
   width: 70%;
   height: 60vh;
   background-color: #243234;
   box-shadow: -1px 7px 40px -22px #121212;
   padding: 20px;
- 
 }
 
-
-
-#block{
+#block {
   margin: 0 auto;
   width: 80%;
   height: 700px;
@@ -340,7 +332,7 @@ svg:hover{stroke-width:2.2px;}
   padding: 20px;
 }
 
-#block-inside{
+#block-inside {
   margin: 50 auto;
   width: 75%;
   height: 350px;
@@ -348,54 +340,52 @@ svg:hover{stroke-width:2.2px;}
   background-color: #252927;
   padding: 30px;
   box-shadow: -1px 7px 34px -22px #121212;
-
 }
 
-#footer{
+#footer {
   margin: auto;
-  width:250px;
+  width: 250px;
   padding: auto;
   position: absolute;
   display: flex;
   right: 42%;
   top: 197%;
 }
-#footer-contact{
+#footer-contact {
   margin: auto;
-  width:250px;
+  width: 250px;
   padding: auto;
   position: absolute;
   display: flex;
   right: 42%;
   top: 97%;
 }
-#copyright{
+#copyright {
   color: white;
   opacity: 0.5;
   margin-left: 15px;
 }
 
-#bottomnav{
+#bottomnav {
   text-decoration: none;
-  color:white;
+  color: white;
   opacity: 0.6;
   transition: 0.3s;
   margin: auto 3px;
 }
-#bottomnav:hover{
+#bottomnav:hover {
   opacity: 0.9;
 }
 
-#example{
+#example {
   margin-top: 20px;
   font-weight: 600;
 }
-#task{
+#task {
   margin-top: 20px;
-
 }
 
-#text{
+#text {
   color: white;
   font-size: 17px;
   text-align: left;
