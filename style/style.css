@@ -287,6 +287,39 @@ svg:hover{stroke-width:2.2px;}
   padding: 20px;
  
 }
+
+#resend{
+  background-color: #20cd8d;
+  text-decoration: none;
+  color: white;
+  padding: 7px 25px;
+  border-radius: 10px;
+  font-weight: 600;
+  transition: 0.3s;
+}
+#resend:hover{
+  background-color: #10bc7c;
+}
+
+#resend-div{
+  /* border:1px solid black; */
+  height: 10vh;
+  text-align: center;
+  /* justify-content: center; */
+}
+
+#having-problems{
+  margin-top: 3vh;
+}
+
+#contact-us{
+  /* text-decoration: none; */
+  font-weight: 600;
+  color: rgb(227, 227, 227);
+  transition: 0.3s;
+}
+#contact-us:hover{color:white}
+
 #contact-box{
   margin: 0 auto;
   width: 70%;
