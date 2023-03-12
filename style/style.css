@@ -89,14 +89,6 @@ p {
   margin: 40px auto 20px auto;
 }
 
-#email-text {
-  color: white;
-  font-size: 20px;
-  width: 100%;
-  /* border: 1px solid black; */
-  margin: 10px auto 0px auto;
-  text-align: center;
-}
 
 #input {
   display: flex;
@@ -121,42 +113,19 @@ p {
   font-weight: 700;
 }
 
-#message::placeholder {
-  font-size: 16px;
-  font-family: "Nunito", sans-serif;
-  opacity: 0.5;
-}
+
 #email::placeholder {
   font-size: 18px;
   font-family: "Nunito", sans-serif;
   opacity: 0.5;
 }
 
-#message[type="text"] {
-  margin: 20px;
-  width: 500px;
-  height: 200px;
-  border-radius: 10px;
-  font-size: 16px;
-  padding: 10px;
-  background-color: #c5c5c5;
-  transition: 0.5s;
-  box-sizing: border-box;
-  border: 2px solid #ccc;
-  outline: none;
-  resize: vertical;
-  font-weight: 700;
-  max-height: 300px;
-  min-height: 50px;
-}
+
 #email[type="text"]:focus {
   border: 2px solid #303030;
   background-color: #d6d6d6;
 }
-#message[type="text"]:focus {
-  border: 2px solid #303030;
-  background-color: #d6d6d6;
-}
+
 input[type="submit"] {
   background-color: #20cd8d;
   border: none;
@@ -170,39 +139,7 @@ input[type="submit"] {
   margin-top: 30px;
   transition: 0.3s;
 }
-#inline-form {
-  margin: 10 auto;
-  width: auto;
-  /* border: 1px solid black; */
-  display: flex;
-  justify-content: center;
-}
-#inline[type="text"] {
-  margin: 0 auto;
-  width: 240px;
-  margin: 10px;
-  height: 50px;
-  border-radius: 20px;
-  font-size: 18px;
-  padding: 10px;
-  background-color: #c5c5c5;
-  transition: 0.5s;
-  box-sizing: border-box;
-  border: 2px solid #ccc;
-  outline: none;
-  font-weight: 700;
-}
 
-#inline::placeholder {
-  opacity: 0.5;
-  font-size: 18px;
-  font-family: "Nunito", sans-serif;
-}
-
-#inline:focus {
-  border: 2px solid #303030;
-  background-color: #d6d6d6;
-}
 
 input[type="submit"]:hover {
   background-color: #10bc7c;
@@ -272,57 +209,8 @@ svg:hover {
   padding: auto;
   width: 1000px;
 }
-#verification-box {
-  margin: 0 auto;
-  width: 70%;
-  height: 400px;
-  background-color: #243234;
-  box-shadow: -1px 7px 40px -22px #121212;
-  padding: 20px;
-}
 
-#resend {
-  background-color: #20cd8d;
-  text-decoration: none;
-  color: white;
-  padding: 7px 25px;
-  border-radius: 10px;
-  font-weight: 600;
-  transition: 0.3s;
-}
-#resend:hover {
-  background-color: #10bc7c;
-}
 
-#resend-div {
-  /* border:1px solid black; */
-  height: 10vh;
-  text-align: center;
-  /* justify-content: center; */
-}
-
-#having-problems {
-  margin-top: 3vh;
-}
-
-#contact-us {
-  /* text-decoration: none; */
-  font-weight: 600;
-  color: rgb(227, 227, 227);
-  transition: 0.3s;
-}
-#contact-us:hover {
-  color: white;
-}
-
-#contact-box {
-  margin: 0 auto;
-  width: 70%;
-  height: 60vh;
-  background-color: #243234;
-  box-shadow: -1px 7px 40px -22px #121212;
-  padding: 20px;
-}
 
 #block {
   margin: 0 auto;
