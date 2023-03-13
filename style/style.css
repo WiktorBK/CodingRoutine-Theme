@@ -63,7 +63,7 @@ h1 {
 
 h2 {
   color: #20cd8d;
-  font-size: 3vw;
+  font-size: 52px;
   width: 100%;
   text-align: center;
   margin: 0 auto;
@@ -184,14 +184,35 @@ input[type="submit"]:hover {
   #line { width: 5px; height: 35px; margin-right: 8px;}
   .container {width: 700px;}
   h1 { font-size: 56px;width: 510px;}
+  h2 {font-size: 33px;}
+  #footer {
+    width: auto;
+    padding: auto;
+    position: absolute;
+    margin: auto;
+    right: 50%;
+    margin-right: -120px;
+    top: 197%;
+  }
 }
 
 @media screen and (max-width: 800px) {
-  .topnav a { font-size: 24px; margin: 40px 35px;}
-  .container {width: 400px;}
+  .topnav a { font-size: 24px; margin: 40px 25px;}
+  .container {width: 400px}
   #line {width: 4px; height: 30px; margin-right: 8px;}
   h1 {font-size: 49px; width: 350px;}
-  input[type="submit"] {width: 210px; height: 45px; font-size: 20px;}
-  #email[type="text"] {width: 400px; height: 42px;}
-  p {font-size: 18px;width: auto;margin: 20 auto;}
+  input[type="submit"] {width: 180px; height: 45px; font-size: 20px;}
+  #email[type="text"] {width: 360px; height: 42px;}
+  p {font-size: 16px;width: auto;margin: 20 auto; display:flex; justify-content: center;}
+  h2 {font-size: 20px;}
+  #footer {
+    width: auto;
+    padding: auto;
+    position: absolute;
+    margin: auto;
+    right: 50%;
+    margin-right: -120px;
+    top: 197%;
+  }
+
 }
