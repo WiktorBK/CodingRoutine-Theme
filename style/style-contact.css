@@ -67,12 +67,3 @@
     border: 2px solid #303030;
     background-color: #d6d6d6;
   }
-  #footer-contact {
-    margin: auto;
-    width: 250px;
-    padding: auto;
-    position: absolute;
-    display: flex;
-    right: 42%;
-    top: 97%;
-  }
