@@ -76,7 +76,7 @@
   #block-inside {
     margin: 50 auto;
     width: 75%;
-    height: 350px;
+    height: 300px;
     border-radius: 7px;
     background-color: #252927;
     padding: 30px;
@@ -102,4 +102,27 @@
     width: 1000px;
   }
   
+  
+  @media screen and (max-width: 1200px) {
+    
+    .container2{width:600px;}
+    #block {width: 80%;height: 520px;padding: 20px; }
+    #block-inside {margin: 50 auto;width: 72%;height: 280px;padding: 30px; }
+    #example {margin-top: 16px;font-weight: 600;}
+    #task {margin-top: 20px; }
+    #text {font-size: 15px;}
+    #line2 {width: 4px;height: 35px;margin: 55px 0px 0px 22px;}
+  }
+  
+  @media screen and (max-width: 800px) {
+    #smalltext {font-size: 12px;}
+    .container2{width: 400px}
+    #block-inside {margin: 50 auto;width: 70%;height: 250px;padding: 22px}
+    #task {margin-top: 15px; }
+    #text {font-size: 12px;}
+    #block {width: 70%;height: 400;padding: 20px;  }
+    #line2 {width: 3px;height: 30px;margin: 55px 0px 0px 10px;}
+    #section2{padding:  100px  0;}
+    
+  }
   

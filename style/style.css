@@ -55,15 +55,15 @@ body {
 
 h1 {
   color: #20cd8d;
-  font-size: 74px;
-  width: 600px;
+  font-size: 76px;
+  width: 550px;
   text-align: center;
   margin: 0 auto;
 }
 
 h2 {
   color: #20cd8d;
-  font-size: 50px;
+  font-size: 52px;
   width: 100%;
   text-align: center;
   margin: 0 auto;
@@ -71,7 +71,7 @@ h2 {
 }
 h5 {
   color: #20cd8d;
-  font-size: 18px;
+  font-size: 1vw;
   width: 500px;
   text-align: center;
   margin: 0 auto;
@@ -121,7 +121,7 @@ p {
   background-color: #d6d6d6;
 }
 
-input[type="submit"] {
+#sign-up[type="submit"] {
   background-color: #20cd8d;
   border: none;
   color: white;
@@ -136,7 +136,7 @@ input[type="submit"] {
 }
 
 
-input[type="submit"]:hover {
+#sign-up[type="submit"]:hover {
   background-color: #10bc7c;
 }
 
@@ -146,8 +146,9 @@ input[type="submit"]:hover {
   padding: auto;
   position: absolute;
   display: flex;
-  right: 42%;
+  right: 50%;
   top: 97%;
+  margin-right: -130px;
 }
 
 #footer {
@@ -177,3 +178,47 @@ input[type="submit"]:hover {
   opacity: 0.9;
 }
 
+
+@media screen and (max-width: 1200px) {
+  .topnav {height: 120px;}
+  .topnav a { font-size: 30px; margin: 50px 100px;}
+  #line { width: 5px; height: 35px; margin-right: 8px;}
+  .container {width: 700px;}
+  h1 { font-size: 56px;width: 510px;}
+  h2 {font-size: 33px;}
+  #footer {
+    width: auto;
+    padding: auto;
+    position: absolute;
+    margin: auto;
+    right: 50%;
+    margin-right: -120px;
+    top: 197%;
+  }
+  #footer-contact {
+    margin-right: -120px;
+    right: 50%;
+
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .topnav a { font-size: 24px; margin: 40px 25px;}
+  .container {width: 400px;}
+  #line {width: 4px; height: 30px; margin-right: 8px;}
+  h1 {font-size: 49px; width: 350px;}
+  #sign-up[type="submit"] {width: 180px; height: 45px; font-size: 20px;}
+  #email[type="text"] {width: 360px; height: 42px;}
+  p {font-size: 16px;width: auto;margin: 20 auto; display:flex; justify-content: center;}
+  h2 {font-size: 20px;}
+  #footer {
+    width: auto;
+    padding: auto;
+    position: absolute;
+    margin: auto;
+    right: 50%;
+    margin-right: -120px;
+    top: 197%;
+  }
+
+}
