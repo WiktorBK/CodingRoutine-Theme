@@ -55,15 +55,15 @@ body {
 
 h1 {
   color: #20cd8d;
-  font-size: 74px;
-  width: 600px;
+  font-size: 76px;
+  width: 550px;
   text-align: center;
   margin: 0 auto;
 }
 
 h2 {
   color: #20cd8d;
-  font-size: 50px;
+  font-size: 3vw;
   width: 100%;
   text-align: center;
   margin: 0 auto;
@@ -71,7 +71,7 @@ h2 {
 }
 h5 {
   color: #20cd8d;
-  font-size: 18px;
+  font-size: 1vw;
   width: 500px;
   text-align: center;
   margin: 0 auto;
@@ -177,3 +177,21 @@ input[type="submit"]:hover {
   opacity: 0.9;
 }
 
+
+@media screen and (max-width: 1200px) {
+  .topnav {height: 120px;}
+  .topnav a { font-size: 30px; margin: 50px 100px;}
+  #line { width: 5px; height: 35px; margin-right: 8px;}
+  .container {width: 700px;}
+  h1 { font-size: 56px;width: 510px;}
+}
+
+@media screen and (max-width: 800px) {
+  .topnav a { font-size: 24px; margin: 40px 35px;}
+  .container {width: 400px;}
+  #line {width: 4px; height: 30px; margin-right: 8px;}
+  h1 {font-size: 49px; width: 350px;}
+  input[type="submit"] {width: 210px; height: 45px; font-size: 20px;}
+  #email[type="text"] {width: 400px; height: 42px;}
+  p {font-size: 18px;width: auto;margin: 20 auto;}
+}
