@@ -183,7 +183,7 @@ p {
   .topnav {height: 120px;}
   .topnav a { font-size: 30px; margin: 50px 100px;}
   #line { width: 5px; height: 35px; margin-right: 8px;}
-  .container {width: 700px;}
+  .container {width: 700px; margin: 30px auto;}
   h1 { font-size: 56px;width: 510px;}
   h2 {font-size: 33px;}
   #footer {
@@ -196,7 +196,7 @@ p {
     top: 197%;
   }
   #footer-contact {
-    margin-right: -120px;
+    margin-right: -140px;
     right: 50%;
 
   }
@@ -204,11 +204,11 @@ p {
 
 @media screen and (max-width: 800px) {
   .topnav a { font-size: 24px; margin: 40px 25px;}
-  .container {width: 400px;}
+  .container {width: 360px; margin: 30px auto;}
   #line {width: 4px; height: 30px; margin-right: 8px;}
   h1 {font-size: 49px; width: 350px;}
   #sign-up[type="submit"] {width: 180px; height: 45px; font-size: 20px;}
-  #email[type="text"] {width: 360px; height: 42px;}
+  #email[type="text"] {width: 360px; height: 42px; background-size: 30px;}
   p {font-size: 16px;width: auto;margin: 20 auto; display:flex; justify-content: center;}
   h2 {font-size: 20px;}
   #footer {
